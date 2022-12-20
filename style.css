@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    color: #ffffff;
+    background: #a2d2ff;
+    font-family: 'Happy Monkey', cursive;
+}
+#profile {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid pink;
+
+}
+h1, h2, h4 {
+    text-shadow: 0px 0px 1px black;
+}
+#cta {
+    color: blue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+.gift {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 5%;
+    background-image: url("gift-cover.jpg");
+    background-size: cover;
+}
+.gift:hover {
+    background-image: url("happy.gif");
+}
+#other-gift:hover {
+    background-image: url("dance.gif");
+}
+#other-gift1:hover {
+    background-image: url("gift1.gif");
+}
+#other-gift2:hover {
+    background-image: url("gift2.gif");
+}
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
